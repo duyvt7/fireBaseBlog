@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:#dddddd;
+
+}
+li {
+    display: inline;
+    float: center;
+}
+li a{
+    padding: 8px;
+    text-decoration: none;
+}
+div{
+    display:inline;
+}
+.languages {
+    position: relative;
+}
+.dropdown-language{
+    display: none;
+    position:absolute;
+    background-color:#f9f9f9;
+}
