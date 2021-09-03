@@ -64,3 +64,12 @@ li a:hover{
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+h1{
+  text-align: center;
+  position: left;
+  color: rgb(118, 206, 221);
+}
+body{
+  background-image: url('https://s.meta.com.vn/img/thumb.ashx/Data/image/2021/01/11/tai-hinh-anh-buon-anh-buon-tam-trang-29.jpg');
+}
