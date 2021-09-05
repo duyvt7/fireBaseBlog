@@ -23,3 +23,21 @@ a:hover{
   color:rgb(48, 42, 45);
   
 }
+.learning {
+  display: inline;
+  position: relative;
+}
+.learning-content{
+  display:none;
+  position:right;
+  color:rgba(104, 111, 207, 0.836);
+  background-color: rgb(181, 243, 222);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: 300px;
+  text-align: center
+}
+.learning:hover .learning-content{
+  display: block;
+  
+}
