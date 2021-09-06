@@ -5,6 +5,7 @@ body {
   text-align: center;
   color: rgba(104, 111, 207, 0.836);
   font-size: xx-large;
+
 }
 .taskbar {
   font-family: 'Times New Roman', Times, serif;
@@ -14,6 +15,8 @@ body {
   color: rgb(133, 216, 158);
   background-color: rgb(181, 243, 222);
   opacity: .3;
+  border: solid rgb(133, 216, 158) 5px;
+  border-radius: 5px;
 }
 a {
   text-decoration: none;
