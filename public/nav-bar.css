@@ -1,3 +1,8 @@
+body{
+    background-image: linear-gradient(to top right, white 0%, pink 100%);
+    background-repeat:none;
+    background-attachment: fixed;
+}
 ul{
     list-style-type: none
 }
