@@ -1,46 +1,87 @@
-body {
-  background-image: url(./fbd9ad57b45d42031b4c.jpg);
+*{
+  box-sizing: border-box;
 }
-.heading{
-  text-align: center;
-  color: rgba(104, 111, 207, 0.836);
-  font-size: xx-large;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
 
-}
-.taskbar {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  font-weight: 300px;
-  text-align: center;
-  color: rgb(133, 216, 158);
-  background-color: rgb(181, 243, 222);
-  opacity: .3;
-  border: solid rgb(133, 216, 158) 5px;
-  border-radius: 5px;
-}
-a {
-  text-decoration: none;
+/*header - blog title */
+.header{
   padding: 30px;
+  text-align: center;
+  background-color: white;
 }
-a:hover{
-  color:rgb(48, 42, 45);
-  
+.header h1{
+  font-size: 50px;
 }
-.learning {
-  display: inline;
-  position: relative;
+
+/* Style the top navigation bar */
+
+.topnav{
+  overflow:hidden;
+  background-color:#333;
 }
-.learning-content{
-  display:none;
-  position:right;
-  color:rgba(104, 111, 207, 0.836);
-  background-color: rgb(181, 243, 222);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  font-weight: 300px;
-  text-align: center
+.topnav a{
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
 }
-.learning:hover .learning-content{
-  display: block;
-  
+/* Change color on hover */
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.left-columns {
+  width:75%;
+  float:left;
+}
+/* Right column */
+.right-columns{
+  width:25%;
+  float: right;
+  background-color: #f1f1f1;
+  padding-left: 20px;;
+}
+.fake-img{
+  background-color: #aaa;
+  text-align: center;
+  width:100%;
+  padding: 20px;
+}
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
