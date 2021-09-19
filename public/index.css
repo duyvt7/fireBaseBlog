@@ -4,6 +4,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+<<<<<<< HEAD
   background: #f1f1f1;
 }
 .header {
@@ -17,4 +18,86 @@ body{
 .topnav {
   overflow: hidden;
   background-color: #333;
+=======
+  background-color: #f1f1f1;
+}
+
+/*header - blog title */
+.header{
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+.header h1{
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+
+.topnav{
+  overflow:hidden;
+  background-color:#333;
+}
+.topnav a{
+  float: left;
+  display:block;
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: center;
+}
+/* Change color on hover */
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.left-columns {
+  width:75%;
+  float:left;
+}
+/* Right column */
+.right-columns{
+  width:25%;
+  float: right;
+  background-color: #f1f1f1;
+  padding-left: 20px;;
+}
+.fake-img{
+  background-color: #aaa;
+  text-align: center;
+  width:100%;
+  padding: 20px;
+}
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+>>>>>>> 813dc76fd0f708aaa047db76e50cbebc2f3fc05b
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
