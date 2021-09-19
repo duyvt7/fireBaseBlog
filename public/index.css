@@ -1,46 +1,20 @@
-body {
-  background-image: url(./fbd9ad57b45d42031b4c.jpg);
+*{
+  box-sizing: border-box;
 }
-.heading{
-  text-align: center;
-  color: rgba(104, 111, 207, 0.836);
-  font-size: xx-large;
-
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
 }
-.taskbar {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  font-weight: 300px;
-  text-align: center;
-  color: rgb(133, 216, 158);
-  background-color: rgb(181, 243, 222);
-  opacity: .3;
-  border: solid rgb(133, 216, 158) 5px;
-  border-radius: 5px;
-}
-a {
-  text-decoration: none;
+.header {
   padding: 30px;
+  text-align: center;
+  background:white;
 }
-a:hover{
-  color:rgb(48, 42, 45);
-  
+.header h1 {
+  font-size:50px;
 }
-.learning {
-  display: inline;
-  position: relative;
-}
-.learning-content{
-  display:none;
-  position:right;
-  color:rgba(104, 111, 207, 0.836);
-  background-color: rgb(181, 243, 222);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  font-weight: 300px;
-  text-align: center
-}
-.learning:hover .learning-content{
-  display: block;
-  
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
