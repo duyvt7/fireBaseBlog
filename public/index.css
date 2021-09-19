@@ -55,6 +55,11 @@ body {
   background-color:var(--clr--cardbg);
   padding: 20px;
   margin-top: 20px;
+  border: 1px solid #889EAF;
+  border-radius: 15px;
+}
+.card a{
+  text-decoration: none;
 }
 .row:after{
   content: "";
