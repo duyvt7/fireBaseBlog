@@ -61,6 +61,13 @@ body {
 .card a{
   text-decoration: none;
 }
+.card img {
+  width:100%;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
 .row:after{
   content: "";
   display: table;
