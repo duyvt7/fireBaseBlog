@@ -7,11 +7,14 @@ function getActs(res){
     const act_link = `https://www.strava.com/api/v3/athlete/activities?access_token=${res.access_token}`
 
     fetch(act_link)
-    .then((res)=>{
-        console.log(res.json())
+    .then((res)=>
+        res.json()
+    )
+    .then((data) => {
+        console.log(data[0].distance)
     })
-
 }
+
 
 
 function reAuth(){
@@ -27,12 +30,12 @@ function reAuth(){
             refresh_token: 'ba11c549a66c9f735703a12a97613c1d5b043662',
             grant_type: 'refresh_token'
         })
-    }).then(res => res.json())
+    })
+    .then(res => res.json())
     .then(data =>{
         getActs(data)
+        console.log(data)
     })
-
-    
 }
 reAuth()
 
