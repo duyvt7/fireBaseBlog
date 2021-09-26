@@ -11,10 +11,18 @@ function getActs(res){
         res.json()
     )
     .then((data) => {
-        console.log(data[0].distance)
+        displayActs(data)
     })
 }
-
+function displayActs(data){
+    const distance=document.getElementById('distance');
+    distance.innerHTML = `activities number is: ${data.length}`;
+    let distanceCount=0;
+    for (let i=0;i<data.length;i++){
+        distanceCount+=data[i].distance;
+        distance.innerHTML = `total diatance is: ${Math.floor (distanceCount)}`
+    }
+}
 
 
 function reAuth(){
@@ -33,8 +41,7 @@ function reAuth(){
     })
     .then(res => res.json())
     .then(data =>{
-        getActs(data)
-        console.log(data)
+        getActs(data);
     })
 }
 reAuth()
