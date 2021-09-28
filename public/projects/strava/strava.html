@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="./strava.css">
   <script src="https://kit.fontawesome.com/933386b2f0.js" crossorigin="anonymous"></script>
   <script src="./strava.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
 </head>
 <body>
   <div class="header">
@@ -32,6 +40,7 @@
         <h5>Tuesday, 21 Sep 2021</h5>
         <p>strava</p>
         <div class="distance" id="distance"></div>
+        <div id="map"></div>
       </div>
     </div>
     <div class="right-columns">
