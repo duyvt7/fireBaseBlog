@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- <img src="/fireBaseBlog/public/image/avatar.jpg" alt=""> -->
+    <script>
+        const title = React.createElement('div', null, 'Hello my name is Duy');
+        const image = React.createElement('img', {
+            src:'/fireBaseBlog/public/image/avatar.jpg'
+        })
+        const App = React.createElement('div', null, title, image)
+        const root  = document.getElementById('root')
+        ReactDOM.render(title, root)
+    </script>
+</body>
+</html>
