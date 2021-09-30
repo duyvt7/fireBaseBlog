@@ -4,9 +4,7 @@ class TodoItem extends Component{
     render() {
         return (
             <div className='todoItem'>
-                <p>đi chợ</p>
-                <p>đi chợ</p>
-                <p>đi chợ</p>
+                <p>{this.props.title}</p>
             </div>
         )
     }
