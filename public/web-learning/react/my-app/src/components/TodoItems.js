@@ -1,9 +1,9 @@
-import React, { Component} from 'react';
+import React, { Component } from "react";
 
-class TodoItem extends Component{
+class TodoItem extends Component {
     render() {
         return (
-            <div className='todoItem'>
+            <div className='todolist'>
                 <p>{this.props.title}</p>
             </div>
         )

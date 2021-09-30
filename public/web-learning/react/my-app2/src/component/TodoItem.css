@@ -1,0 +1,10 @@
+.todolist {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: medium;
+    color: red;
+}
+.CompleteItem{
+    opacity: .3;
+    text-decoration: line-through;
+}
